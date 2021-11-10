@@ -141,13 +141,12 @@ TRA-11
 Przy eksporcie danych jak w liście osób przeszkolonych/nieprzeszkolonych w zakładce „trainings” nie poprawienie wyświetla się lista nazwisk,
 która nie wyświetla się alfabetycznie, tylko wg kolejności dodania do bazy.
 In Progress
+[1.0.0.32]
+Hot Fix dla usuniecia osoby przeszkolonej (remove)
 1.0.0.X--
 *Weryfikacja usuniecia osoby przeszkolonej (remove)
 *Przechodzenie na widoki z raportów
-*Problem filtrów
 
-***Dodanie liczby porządkowej na każdej liście jakiej to możliwe
-****Panie Piotrze chciałabym poprosić o modyfikację. Przy zmianie wersji instrukcji wyrzucić okienko „numer szkolenia” tak naprawdę jest dla nas bezużyteczne.
 
 
 

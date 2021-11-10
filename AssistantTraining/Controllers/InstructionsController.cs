@@ -63,7 +63,7 @@ namespace AssistantTraining.Controllers
                 instructioGroup.Number = item.Number;
                 instructioGroup.Version = item.Version;
                 instructioGroup.UserName = item.CreatedByUserId;
-                if (item.CreatedByUserId != null)
+                if (item.CreatedByUserId != null && db.Users.Find(item.CreatedByUserId) != null)
                     instructioGroup.UserName = db.Users.Find(item.CreatedByUserId).UserName;
                 instructioGroup.TimeOfCreation = item.TimeOfCreation.ToShortDateString();
 
